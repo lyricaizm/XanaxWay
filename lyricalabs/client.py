@@ -5,7 +5,7 @@ class NexaClient:
     """Lyrica Labs Nexa LLM API istemci sınıfı"""
     
     BASE_URL = "https://api-lyricalabs.vercel.app/v4/llm/nexa/generative/model/completions"
-    
+     
     # Güncellenmiş model listesi -
     MODELS = [
         "nexa-5.0-preview",
