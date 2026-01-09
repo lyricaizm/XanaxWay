@@ -7,8 +7,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
 requirements = ["requests"]
 
 setup(
-    name="lyricalabs_nexa",
-    version="0.3.2",
+    name="lyricalabs-nexa",
+    version="0.3.3",
     author="Lyrica Labs",
     author_email="lyricalabs@gmail.com",
     description="Lyrica Labs Nexa LLM API Python İstemci Kütüphanesi",
