@@ -1,13 +1,13 @@
-# Lyricalabs Nexa Python Kütüphanesi
+# XanaxWay Nexa Python Kütüphanesi
 
-Lyricalabs Nexa, **Lyrica Labs** tarafından geliştirilen geniş veri LLM modellerine erişim sağlayan Python kütüphanesidir. Bu kütüphane ile **Nexa modellerini kolayca kullanabilir** ve metin üretimi, kod analizi gibi senaryolarda hızlıca entegre edebilirsiniz.
+XanaxWay Nexa, **XanaxWay** tarafından geliştirilen geniş veri LLM modellerine erişim sağlayan Python kütüphanesidir. Bu kütüphane ile **Nexa modellerini kolayca kullanabilir** ve metin üretimi, kod analizi gibi senaryolarda hızlıca entegre edebilirsiniz.
 
 ---
 
 ## 📦 Kurulum
 
 ```bash
-pip install lyricalabs
+pip install xanaxway
 
 ```
 ---
@@ -16,13 +16,13 @@ pip install lyricalabs
 
 Kütüphaneyi kullanmak için **API** token’a ihtiyacınız var:
 
-1. [Lyricalabs Platform](https://lyricalabs.com) adresine girin
+1. XanaxWay Platform](https://xanaxway.com) adresine girin
 
 
 2. Kayıt olun ve giriş yapın
 
 
-3. Dashboard’dan [API](https://lyricalabs.com/lyrica-labs-apis) token’ınızı alın
+3. Dashboard’dan [API](https://xanaxway.com/token) token’ınızı alın
 
 
 
@@ -31,7 +31,7 @@ Kütüphaneyi kullanmak için **API** token’a ihtiyacınız var:
 
 🚀 Hızlı Başlangıç
 ```python
-from lyricalabs import NexaClient
+from xanaxway import NexaClient
 
 # API token'ınız ile client oluşturun
 client = NexaClient(token="API_TOKENİNİZ")
@@ -131,7 +131,7 @@ else:
 ❓ Sık Sorulan Sorular
 
 1. API token’ımı nasıl alırım?
-Lyricalabs platformundan kayıt olun ve dashboard’dan token oluşturun.
+XanaxWay platformundan kayıt olun ve Token sayfasından token oluşturun.
 
 
 2. Hangi modeli kullanmalıyım?
@@ -147,7 +147,7 @@ Hızlı yanıt: nexa-7.0-express
 
 
 3. Rate limit var mı?
-- Evet, token tipine göre değişir. Dashboard’dan kontrol edin.
+- Evet, üyelik tipine göre değişir. Dashboard’dan kontrol edin.
 
 
 
@@ -156,11 +156,11 @@ Hızlı yanıt: nexa-7.0-express
 
 📞 Destek ve İletişim
 
-Website: https://lyricalabs.com
+Website: https://xanaxway.com
 
-Nexa API Docs: https://docs.lyricalabs.com
+Nexa API Docs: https://docs.xanaxway.com
 
-Email: lyricalabs@gmail.com
+Email: xanaxway@gmail.com
 
 GitHub Issues: Sorun bildirin
 
