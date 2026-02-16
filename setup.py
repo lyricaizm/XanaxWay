@@ -7,20 +7,20 @@ def read_readme():
         with open('README.md', 'r', encoding='utf-8') as f:
             return f.read()
     except FileNotFoundError:
-        return "XanaxWay API Python, Nexa LLM"
+        return "XanaxWay API Python, LLM"
 
 long_description = read_readme()
 
 setup(
     name="xanaxway",
-    version="0.1.4",
+    version="0.1.5",
     packages=find_packages(),
     install_requires=["requests"],
     python_requires=">=3.8",
-    description="XanaxWay API Python, Nexa LLM",
+    description="XanaxWay API Python, LLM",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://lyricalabs.com",
+    url="https://xanaxway.com",
     author="XanaxWay",
     author_email="xanaxway@gmail.com",
     classifiers=[
